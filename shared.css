@@ -1,0 +1,304 @@
+/**
+ * This CSS file contains the stuff that is shared between the main CSS file
+ * and the one integrated into our phpBB skin.
+ */
+
+/* Generally-used stuff */
+
+body
+{
+    margin: 0px;
+    font-family: Helvetica, Arial, FreeSans, sans-serif;
+    background-color: #DDDDDD;
+    background-image: url(background.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+div#topBanner
+{
+    width: 766px;
+    margin: 0px 6px;
+    background-color: #EEEEEE;
+    border-bottom: #B8B8B8 solid 1px;
+}
+
+
+div#topBanner p#wrapper
+{
+    color: #888888;
+    white-space: nowrap;
+    margin: 0px 10px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: right
+}
+
+
+div#topBanner p a
+{
+    color: #888888;
+}
+
+
+div#topBanner a#signuplink
+{
+    color: #cc0000;
+}
+
+/*
+ * This div contains everything on the page; its purpose is to
+ * center everything so that it's all contained within the white
+ * part of the background image (background.gif above).
+ */
+div#wrap
+{
+    position:relative;
+    width: 778px;
+    margin: 0 auto;
+}
+
+
+/**
+ * This div contains the description and the download and buy links at the top left of the screen.
+ */
+div#buyOrDownloadBanner
+{
+    display: block;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: Georgia, Times New Roman, serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: #888888;
+    line-height: 16pt;
+}
+
+
+/*
+ * This div contains the Resolver Systems logo at the top right.
+ */
+div#header {
+    display: block;
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+div#header img
+{
+    border: 0px;
+    padding: 0px;
+}
+
+
+/*
+ * This div contains everything below the header. This currently includes the
+ * menu at the top.  Its purpose is to indent everything a bit to leave a nice
+ * white margin down the sides of the page.
+ */
+div#content{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 11pt;
+}
+
+
+/*
+ * This div, and the UL with ID nav, make up the "tabbed" menu at the top of the page.
+ */
+div#menu
+{
+    clear: both;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+#nav, #nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#nav {
+    display:block;
+    font-family: "Century Gothic Bold", "Trebuchet MS", Tahoma, Helvetica, FreeSans, sans-serif;
+    font-size:18px;
+    height:25px;
+}
+
+#nav li {
+    position:relative;
+    float: left;
+    width: auto;
+    display:block;
+    margin: 0;
+    border-right: 0px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #AAAAAA;
+    border-left: 0px;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+#nav li a, #nav li a:link, #nav li a:visited, #nav li a:hover, #nav li a:active {
+    text-decoration:none;
+    cursor:pointer;
+    color:#AAAAAA;
+    padding:4px 14px;
+    height:25px;
+    line-height:25px;
+}
+
+#nav li a:hover {
+    color: #888888;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+    left: 0;
+    z-index:9999;
+}
+
+#nav li.active {
+    border-right: 2px solid #AAAAAA;
+    border-top: 2px solid #AAAAAA;
+    border-bottom: 1px solid #ffffff;
+    border-left: 2px solid #AAAAAA;
+}
+
+#nav li.active a{
+    color:#888888;
+}
+
+/* hide from IE mac \*/
+#nav li {
+    width: auto;
+}
+/* end hiding from IE5 mac */
+
+
+/*
+ * As you'd expect, this is the div for the copyright stuff at the bottom of the page.
+ */
+div#footer{
+    color:#000000;
+    font-size:11px;
+    padding-top:3px;
+    padding-left:20px;
+    clear: both;
+    text-align: center;
+}
+/*
+ * tag explaining Resolver One that appears inside the footer
+ */
+#tag{
+    font-size:15px;
+}
+
+/*
+ * This is used when we have one tab at the top of the page with multiple sub-pages
+ * underneath - for example, as of this writing we have one "About" tab that breaks
+ * down to "company information" and "news"
+ */
+div.alternatePage
+{
+    clear:both;
+    color:#888888;
+    float:right;
+    font-size:10pt;
+    font-weight:bold;
+    margin-right:27px;
+    margin-top:5px;
+}
+
+
+.error
+{
+    color: #ff3300;
+}
+
+ul.errorlist
+{
+    color: #ff3300;
+}
+
+
+/**
+ * For screencasts - they're wider than everything else so need a negative margin to be centered.
+ */
+div#media
+{
+    margin-left: -13px;
+}
+
+/**
+ * For a consistent view of screencast lengths in all pages.
+ */
+span.screencastLength {
+    color: #717171;
+}
+
+
+/**
+ * Use for boxes that highlight temporary things, like the competition.
+ */
+div.splash
+{
+  background-color: #FFFF88;
+  margin: 30px 80px;
+  padding: 20px 20px;
+  border: 5px solid #E0E079;
+  font-size: 16pt;
+  color: #222222;
+  font-weight: bold;
+}
+
+
+/**
+ * Breakout boxes that summarise a page.
+ */
+div#page-summary
+{
+  background-color: #DDEEFF;
+  color: #223344;
+  border: 5px solid #667788;
+  margin: 15px 15px;
+  font-size: 14pt;
+  padding: 10px;
+}
+
+.gsc-branding { display: none; }
+div.gs-visibleUrl-short { display: none; }
+td#search-results div.gs-visibleUrl-long { display:inline; }
+td#google-search-box input.gsc-search-button { margin-left: 3px; }
+td#google-search-box form.gsc-search-box { margin-bottom: 0px; }
+td#google-search-box table.gsc-search-box { margin-bottom: 1px; }
+td#google-search-box input.gsc-input { width: 97%; }
+
+#topBanner td {
+    padding: 0px;
+}
+
+td#google-search-box {
+    padding-left: 5px;
+    width: 270px;
+    height: 25px; /* I mean min height, to prevent the jerk on addint the box to the banner */
+}
+
+td#search-results {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.gsc-wrapper {
+    font-size: 12pt;
+}
+
+div#topBanner table
+{
+    border-collapse:collapse;
+}

@@ -1,0 +1,233 @@
+@import url(shared.css);
+
+a
+{
+    color:#e88d51;
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+pre
+{
+    padding: 1em;
+    border: 1px dashed #2f6fab;
+    color: Black;
+    background-color: #f9f9f9;
+    line-height: 1.1em;
+}
+
+h1
+{
+    padding: 0 0 0 0;
+    background: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24pt;
+    font-weight:normal;
+}
+
+
+h2
+{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+p.address
+{
+    padding-left: 1.5em;
+}
+
+
+/*
+ * Wordpress blog-specific stuff
+ */
+
+div#powered
+{
+    margin:0 auto;
+    padding-left:20px;
+    padding-bottom:20px;
+    font-size:11px;
+}
+
+input.text_input
+{
+    border-top:2px solid #818282;
+    border-left:2px solid #818282;
+    border-bottom:1px solid #b7b8b9;
+    border-right:1px solid #b7b8b9;
+    font-size:12px;
+    padding:2px;
+}
+
+textarea.text_area
+{
+    border-top:2px solid #818282;
+    border-left:2px solid #818282;
+    border-bottom:1px solid #b7b8b9;
+    border-right:1px solid #b7b8b9;
+    font-size:12px;
+    padding:2px;
+    width:200px;
+    height:80px;
+}
+
+select
+{
+    padding: 2px;
+    border-top:2px solid #818282;
+    border-left:2px solid #818282;
+    border-bottom:1px solid #b7b8b9;
+    border-right:1px solid #b7b8b9;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+
+select option
+{
+    padding: 0 8px 0 3px;
+}
+
+input.text_submit
+{
+    padding-left:10px;
+    padding-right:10px;
+    background:url(/images/button_off.gif) repeat-x;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Trebuchet MS", Tahoma;
+    height:25px;
+    color:#fff;
+    text-transform:uppercase;
+    border:1px solid #3b3c3c;
+    cursor:pointer;
+}
+
+.postmetadata
+{
+    font-size: 11px;
+}
+
+div.post
+{
+    margin-bottom:20px;
+    width:auto;
+    min-height:90px;
+    padding:5px 5px 5px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:url(/images/cornerBlog.jpg) bottom left no-repeat;
+    border:1px solid #d8d8d8;
+}
+
+
+span.slashdigglicious a img
+{
+        border-width: 0;
+}
+
+div.navigation
+{
+    clear: both;
+    margin-top: 50px;
+}
+
+
+/*
+ * Documentation-specific stuff
+ */
+
+
+input.text_input2
+{
+    border-top:2px solid #818282;
+    border-left:2px solid #818282;
+    border-bottom:1px solid #b7b8b9;
+    border-right:1px solid #b7b8b9;
+    font-size:12px;
+    padding:3px;
+}
+
+input.searchButton
+{
+    padding-left:10px;
+    padding-right:10px;
+    background:url(/images/button_off.gif) repeat-x;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Trebuchet MS", Tahoma;
+    height:25px;
+    color:#fff;
+    text-transform:uppercase;
+    border:1px solid #3b3c3c;
+    cursor:pointer;
+}
+
+#searchGoButton
+{
+    padding-left:10px;
+    padding-right:10px;
+    background:url(/images/button_off.gif) repeat-x;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Trebuchet MS", Tahoma;
+    height:25px;
+    color:#fff;
+    text-transform:uppercase;
+    border:1px solid #3b3c3c;
+    cursor:pointer;
+}
+
+#searchInput
+{
+    width: 10.9em;
+    margin: 0;
+    font-size: 95%;
+}
+
+textarea.text_area2
+{
+    border-top:2px solid #818282;
+    border-left:2px solid #818282;
+    border-bottom:1px solid #b7b8b9;
+    border-right:1px solid #b7b8b9;
+    font-size:12px;
+    padding:2px;
+}
+
+div.editButtons input{
+    margin-top:4px;
+    padding-left:10px;
+    padding-right:10px;
+    background:url(/images/button_off.gif) repeat-x;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Trebuchet MS", Tahoma;
+    height:25px;
+    color:#fff;
+    text-transform:uppercase;
+    border:1px solid #3b3c3c;
+    cursor:pointer;
+}
+
+#searchForm
+{
+    display:block;
+    float:right;
+}
+
+dl.docutils dt
+{
+    font-weight: bold;
+}
+
+dl.docutils dd
+{
+    margin-bottom: 0.5em;
+}
